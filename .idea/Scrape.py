@@ -115,5 +115,6 @@ async def on_message(message):
         channel = client.get_channel(326915348186005505)
         await message.channel.send(generate_scoreboard(names_and_scores))
 
+# Run bot
 client.run(TOKEN)
 
